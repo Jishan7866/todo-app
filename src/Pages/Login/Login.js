@@ -14,6 +14,11 @@ export default function Login(){
                   <input className='input-field' id='email' placeholder='your email'></input>
                   <label className='FieldName'>Password</label>
                   <input className='input-field' type='password' placeholder='your password'></input>
+                  <div className='KeepSigned'>
+                        <input type='checkbox' className='checkbox'></input><h2>Remeber me</h2>
+                  </div>
+                  <button type='submit' className='SignIn'>Sign In</button>
+                  <h2>Don't have an account? <a>Sign Up</a></h2>
             </div>
         </div>
     )

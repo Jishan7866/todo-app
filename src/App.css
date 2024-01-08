@@ -67,3 +67,38 @@ h2{
 .input-field::placeholder {
   color: #bbb;
 }
+.KeepSigned{
+  display: flex;
+  justify-content:left;
+  align-items:center;
+  margin-top:16px
+}
+.checkbox{
+  border: 1px solid #333;
+  margin-right:8px;
+  height: 16px;
+  width: 16px;
+}
+.SignIn{
+  width: 25vw;
+  height: 40px;
+  border-radius: 8px;
+  background: #7f56da;
+  color: white;
+  font-size:16px;
+  border: 0px;
+  font-weight:400;
+  margin: 16px 0px;
+}
+.SignIn:hover{
+  background-color: #613bd7;
+  cursor: pointer;
+}
+a{
+  color:#7f56da;
+  font-weight:bold;
+}
+a:hover{
+  color:#613db7;
+  cursor:pointer;
+}
