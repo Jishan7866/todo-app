@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import logo from '../../Img/Logo.png'
+import { Link } from 'react-router-dom'
 export default function SignUp(){
     return(
         <div className='Page'>
@@ -22,7 +23,7 @@ export default function SignUp(){
                         <input type='checkbox' className='checkbox'></input><h2>I agree to the terms and conditions.</h2>
                   </div>
                   <button type='submit' className='SignIn'>Sign Up</button>
-                  <h2>Do you already have an account? <a>Sign In</a></h2>
+                  <h2>Do you already have an account? <Link to="/">Sign In</Link></h2>
             </div>
         </div>
     )
