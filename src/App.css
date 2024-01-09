@@ -41,6 +41,15 @@ h2{
   margin-left: 0;
   margin-right: 16px;
 }
+.register{
+  color: #565656;
+  font-family: Roboto, Arial;
+  font-size: 23px;
+  font-weight: 300;
+  margin: 8px;
+  margin-left: 0;
+  margin-right: 16px;
+}
 .FieldName{
   color: #777;
   font-family: Roboto, Arial;
