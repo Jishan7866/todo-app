@@ -142,7 +142,7 @@ export default function Tasks() {
 								})}>
 								My Tasks
 							</Title>
-							<ActionIcon
+							{/* <ActionIcon
 								color={'blue'}
 								onClick={() => toggleColorScheme()}
 								size='lg'>
@@ -151,7 +151,7 @@ export default function Tasks() {
 								) : (
 									<MoonStars size={16} />
 								)}
-							</ActionIcon>
+							</ActionIcon> */}
 						</Group>
 						{tasks.length > 0 ? (
 							tasks.map((task, index) => {
