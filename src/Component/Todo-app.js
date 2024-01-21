@@ -11,7 +11,7 @@ import {
 	Code,
 } from '@mantine/core';
 import { useState, useRef, useEffect } from 'react';
-import { MoonStars, Sun, Trash } from 'tabler-icons-react';
+import { MoonStars, Sun,Edit, Trash } from 'tabler-icons-react';
 
 import {
 	MantineProvider,
@@ -142,7 +142,7 @@ export default function Tasks() {
 								})}>
 								My Tasks
 							</Title>
-							{/* <ActionIcon
+							<ActionIcon
 								color={'blue'}
 								onClick={() => toggleColorScheme()}
 								size='lg'>
@@ -151,7 +151,7 @@ export default function Tasks() {
 								) : (
 									<MoonStars size={16} />
 								)}
-							</ActionIcon> */}
+							</ActionIcon>
 						</Group>
 						{tasks.length > 0 ? (
 							tasks.map((task, index) => {
@@ -166,7 +166,7 @@ export default function Tasks() {
 													}}
 													color={'red'}
 													variant={'transparent'}>
-													<Trash />
+													<Trash/>
 												</ActionIcon>
 											</Group>
 											<Text color={'dimmed'} size={'md'} mt={'sm'}>

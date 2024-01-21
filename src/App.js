@@ -3,16 +3,15 @@ import './App.css';
 import Login from './Pages/Login/Login';
 import SignUp from './Pages/SignUp/SignUp';
 import Home from './Pages/Home/Home';
+import PrivateRoute from './PrivateRoute';
 
 function App() {
   return (
-  //  <Login></Login>
-  // <SignUp></SignUp>
   <Router>
     <Routes>
       <Route path='/' element={<Login/>}></Route>
       <Route path='/register' element={<SignUp/>}></Route>
-      <Route path='/home' element={<Home/>}></Route>
+      <Route path='/home' element={<PrivateRoute><Home/></PrivateRoute>}></Route>
     </Routes>
   </Router>
   );
